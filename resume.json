@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Lirith Vikraman N",
+    "label": "Full-Stack Developer",
+    "email": "lirithvikramann@gmail.com",
+    "phone": "+91 9940617737",
+    "url": "",
+    "summary": "IT graduate with experience building full stack applications using Java, Python, React.js, Solidity, and SQL. Projects include a blockchain-based drug tracking system and an ML-powered skin disease detector. Completed a remote internship with hands-on API integration and Git-based team collaboration. Looking to grow as a full stack developer and contribute to meaningful products.",
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Undisclosed Company",
+      "position": "Web Developer Intern",
+      "location": "Remote",
+      "startDate": "2025-06",
+      "endDate": "2025-07",
+      "highlights": [
+        "Integrated external REST API sources into the application data pipeline, structuring datasets for downstream reporting dashboards.",
+        "Diagnosed performance bottlenecks through log analysis and documented findings for both technical and non-technical stakeholders.",
+        "Managed feature branches, pull requests, and deliverables via Git/GitHub in a cross-functional sprint team."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Panimalar Engineering College",
+      "area": "Information Technology",
+      "studyType": "B.Tech",
+      "startDate": "2022",
+      "endDate": "2026",
+      "score": "8.00 CGPA"
+    },
+    {
+      "institution": "Bhaktavatsalam Vidyashram",
+      "area": "Higher Secondary",
+      "studyType": "CBSE",
+      "startDate": "",
+      "endDate": "2022",
+      "score": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Java", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": ["Responsive Web Design", "DOM Manipulation", "CSS Flexbox/Grid"]
+    },
+    {
+      "name": "Backend & DB",
+      "keywords": ["MySQL", "Git & GitHub"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["VS Code", "Eclipse", "EditPlus"]
+    },
+    {
+      "name": "Exposure",
+      "keywords": ["Python (ML projects)", "Image Processing", "OTP/Auth systems"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blockchain-Based Drug Provenance and Counterfeit Detection System",
+      "description": "Developed a blockchain-based drug tracking system using Solidity and Ethereum to ensure tamper-proof supply chain transparency, reducing counterfeit risks. Integrated QR code scanning for instant drug authenticity verification with a React-based frontend, addressing life-threatening risks posed by counterfeit pharmaceuticals globally.",
+      "keywords": ["Solidity", "Ethereum", "React.js", "QR Integration"],
+      "highlights": [
+        "Developed smart contracts to record and verify each step of the supply chain on-chain.",
+        "Integrated QR code scanning for instant authenticity checks through a React frontend."
+      ]
+    },
+    {
+      "name": "Automated Skin Disease Detection System",
+      "description": "Built an end-to-end diagnostic tool that ingests dermatological images, preprocesses them, and classifies skin diseases using ML techniques. Achieved high classification accuracy, providing a low-cost screening alternative to support early detection in resource-limited settings.",
+      "keywords": ["Python", "Image Processing", "Machine Learning"],
+      "highlights": [
+        "Achieved high classification accuracy across target disease classes.",
+        "Designed modular pipeline (image input -> preprocessing -> model inference -> result display) for easy extension with new disease classes."
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Cloud Computing",
+      "issuer": "TCS iON",
+      "date": "2024"
+    },
+    {
+      "name": "Generative AI",
+      "issuer": "Oracle",
+      "date": "2024"
+    },
+    {
+      "name": "Cybersecurity Fundamentals",
+      "issuer": "NASSCOM",
+      "date": "2023"
+    }
+  ]
+}

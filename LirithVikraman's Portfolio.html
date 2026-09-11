@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lirith Vikraman N — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="scan-bar"><div id="scan-fill"></div></div>
+<div id="scan-readout" class="mono">SCAN 0%</div>
+
+<nav>
+  <div class="wrap">
+    <div class="nav-mark mono">LV_N</div>
+    <div class="nav-links">
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#contact" data-nav>Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <svg id="hero-grid" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C9CDC5" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    <line id="scanline" x1="0" y1="0" x2="100%" y2="0" stroke="#2F8F82" stroke-width="1.5" opacity="0.55"/>
+  </svg>
+
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-name"></h1>
+      <div class="role">Full-Stack Developer, Chennai</div>
+      <p class="pitch">I build full-stack applications across Java, Python, React and Solidity — from a blockchain system that traces counterfeit drugs to a machine-learning tool that screens skin conditions. Looking to join a team building products that matter.</p>
+      <div class="contact-row">
+        <a href="mailto:lirithvikramann@gmail.com">lirithvikramann@gmail.com</a>
+        <span>+91 9940617737</span>
+        <span>Chennai, Tamil Nadu</span>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <div class="console" id="console" aria-hidden="true">
+      <div class="console-head">
+        <div class="console-dots"><i></i><i></i><i></i></div>
+        <span>profile_check.sh</span>
+      </div>
+      <div class="console-body">
+        <div class="console-line" style="animation-delay:.1s"><span>Java, SQL</span><span class="tag">backend</span></div>
+        <div class="console-line" style="animation-delay:.35s"><span>React.js, JS(ES6+)</span><span class="tag">frontend</span></div>
+        <div class="console-line" style="animation-delay:.6s"><span>Solidity, Ethereum</span><span class="tag">blockchain</span></div>
+        <div class="console-line" style="animation-delay:.85s"><span>Python, ML</span><span class="tag">exposure</span></div>
+        <div class="console-final" style="animation-delay:1.1s">
+          <div class="dot"></div>
+          <b>PROFILE VERIFIED</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap content-grid">
+    <h2 class="reveal">About</h2>
+    <div class="about-text reveal">
+      <p>I'm an Information Technology graduate from Panimalar Engineering College, working across the stack with Java, Python, React.js, Solidity and SQL. My projects lean toward systems that verify something — whether that's a drug's authenticity on a supply chain or a skin condition from an image.</p>
+      <p>During a remote internship, I integrated REST APIs into a reporting pipeline, traced performance issues through log analysis, and worked Git-based sprints with a cross-functional team. I'm now looking for a full-stack role where I can keep building products people can rely on.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap content-grid">
+    <h2 class="reveal">Skills</h2>
+    <div class="reveal">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="chips">
+          <span class="chip">Java</span><span class="chip">JavaScript (ES6+)</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="chips">
+          <span class="chip">Responsive Web Design</span><span class="chip">DOM Manipulation</span><span class="chip">CSS Flexbox/Grid</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Backend &amp; Database</h3>
+        <div class="chips">
+          <span class="chip">MySQL</span><span class="chip">Git &amp; GitHub</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <div class="chips">
+          <span class="chip">VS Code</span><span class="chip">Eclipse</span><span class="chip">EditPlus</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Exposure</h3>
+        <div class="chips">
+          <span class="chip">Python (ML)</span><span class="chip">Image Processing</span><span class="chip">OTP / Auth Systems</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap content-grid">
+    <h2 class="reveal">Experience</h2>
+    <div class="reveal">
+      <div class="exp-item">
+        <div class="exp-date">Jun – Jul 2025</div>
+        <div>
+          <div class="exp-role">Web Developer Intern</div>
+          <div class="exp-org">Remote · Undisclosed Company</div>
+          <ul class="exp-list">
+            <li>Integrated external REST API sources into the application data pipeline, structuring datasets for downstream reporting dashboards.</li>
+            <li>Diagnosed performance bottlenecks through log analysis and documented findings for technical and non-technical stakeholders.</li>
+            <li>Managed feature branches, pull requests, and deliverables via Git/GitHub in a cross-functional sprint team.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="reveal">Projects</h2>
+      <p class="section-note reveal">Two builds that share a theme — checking whether something is what it claims to be. Hover a card to watch its flow.</p>
+    </div>
+
+    <div class="project reveal" data-tilt>
+      <div class="project-top">
+        <h3>Blockchain-Based Drug Provenance &amp; Counterfeit Detection</h3>
+        <div class="stack">
+          <span class="chip">Solidity</span><span class="chip">Ethereum</span><span class="chip">React.js</span><span class="chip">QR</span>
+        </div>
+      </div>
+      <p class="desc">A tamper-proof drug tracking system built on Ethereum, addressing the life-threatening risk of counterfeit pharmaceuticals in the supply chain.</p>
+      <ul>
+        <li>Developed smart contracts to record and verify each step of the supply chain on-chain.</li>
+        <li>Integrated QR code scanning for instant authenticity checks through a React frontend.</li>
+      </ul>
+      <div class="verify-flow">
+        <span class="verify-step">scan QR</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="verify-step">query ledger</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="verify-step">confirm origin</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="verify-step">flag counterfeit</span>
+      </div>
+    </div>
+
+    <div class="project reveal" data-tilt>
+      <div class="project-top">
+        <h3>Automated Skin Disease Detection System</h3>
+        <div class="stack">
+          <span class="chip">Python</span><span class="chip">Image Processing</span><span class="chip">ML</span>
+        </div>
+      </div>
+      <p class="desc">An end-to-end diagnostic tool that classifies skin diseases from dermatological images, built as a low-cost screening alternative for early detection in resource-limited settings.</p>
+      <ul>
+        <li>Achieved high classification accuracy across the target disease classes.</li>
+        <li>Designed as a modular pipeline so new disease classes can be added without reworking the system.</li>
+      </ul>
+      <div class="pipeline">
+        <span class="pipeline-step">image input</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">preprocessing</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">model inference</span>
+        <span class="pipeline-arrow">→</span>
+        <span class="pipeline-step">result display</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="reveal">Education &amp; Certifications</h2>
+    </div>
+    <div class="two-col reveal">
+      <div>
+        <div class="edu-item">
+          <h3>B.Tech, Information Technology</h3>
+          <div class="edu-meta">Panimalar Engineering College · 2022 – 2026</div>
+          <div class="cgpa">CGPA 8.00 / 10</div>
+        </div>
+        <div class="edu-item">
+          <h3>Higher Secondary (CBSE)</h3>
+          <div class="edu-meta">Bhaktavatsalam Vidyashram · Completed 2022</div>
+        </div>
+      </div>
+      <div>
+        <ul class="cert-list">
+          <li><span>Cloud Computing — TCS iON</span><span class="cert-year">2024</span></li>
+          <li><span>Generative AI, Oracle Certified</span><span class="cert-year">2024</span></li>
+          <li><span>Cybersecurity Fundamentals — NASSCOM</span><span class="cert-year">2023</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <h2 class="reveal">Let's build something that needs to be trusted.</h2>
+      <div class="footer-links reveal">
+        <a href="mailto:lirithvikramann@gmail.com">lirithvikramann@gmail.com</a>
+        <span>+91 9940617737</span>
+        <a href="https://www.linkedin.com/in/lirith-vikraman-n-4269a024a/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/nlirithvikraman" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="fine">Chennai, Tamil Nadu — last verified 2026</div>
+  </div>
+</footer>
+
+<button id="top-btn" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
